@@ -8,6 +8,7 @@ F. Cambio:      5 de Diciembre de 2016.
 Comentarios:    
                 5 de Diciembre de 2016.
                     Se continuó con la construcción.
+                    Cambio desde windows.
 */
 
 import java.util.List;
@@ -34,6 +35,8 @@ public class FXParamApp extends Application {
      * @param args 
      */
     public static void main (String [] args) {
+        
+        System.out.println ("Hola desde windows");
         
         // Redirecciona el flujo al formulario FX.
         Application.launch(args);
