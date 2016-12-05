@@ -4,8 +4,10 @@ package com.apress.javafx.jdojo.intro;
 Descripción:    4o ejercicio de tutorial JavaFX.
 Autor:          Carlos Ernesto Guevara Aguilar.
 F. Creación:    4 de Diciembre de 2016.
-F. Cambio:      4 de Diciembre de 2016.
+F. Cambio:      5 de Diciembre de 2016.
 Comentarios:    
+                5 de Diciembre de 2016.
+                    Se continuó con la construcción.
 */
 
 import java.util.List;
@@ -26,7 +28,9 @@ public class FXParamApp extends Application {
     // <editor-fold defaultstate="collapsed" desc="Métodos">
 
     /**
-     * Método de inicio de la aplicación
+     * Método de inicio de la aplicación.
+     * Parámetros no nombrados: Carlos Ernesto width=200 height=100
+     * Parámetros nombrados: Carlos Ernesto --width=200 --height=100
      * @param args 
      */
     public static void main (String [] args) {
@@ -55,8 +59,10 @@ public class FXParamApp extends Application {
         
         TextArea ta = new TextArea (paramStr);
         Group root = new Group (ta);
-                 
-                 
+        
+        stage.setScene(new Scene (root));
+        stage.setTitle ("Parámetros de aplicación");
+        stage.show();
         
     } // public void start (Stage stage) {
     // </editor-fold>
