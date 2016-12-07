@@ -4,11 +4,14 @@ package com.apress.javafx.jdojo.intro;
 Descripción:    Ejemplo de ciclo de vida de aplicaciones JavaFX.
 Autor:          Carlos Ernesto Guervara Aguilar.
 F. Creación:    5 de Diciembre de 2016.
-F. Cambio:      6 de Diciembre de 2016.
+F. Cambio:      7 de Diciembre de 2016.
 Comentarios:    
                 6 de Diciembre de 2016.
                     Actualización desde iMac.
                     Actualización desde Toshiba.
+
+                7 de Diciembre de 2016.
+                    Actualización desde Dell LATITUDE.
 */
 
 import javafx.application.Application;
