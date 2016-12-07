@@ -8,6 +8,7 @@ F. Cambio:      6 de Diciembre de 2016.
 Comentarios:    
                 6 de Diciembre de 2016.
                     Actualización desde iMac.
+                    Actualización desde Toshiba.
 */
 
 import javafx.application.Application;
